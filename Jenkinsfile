@@ -1,6 +1,14 @@
 node {
    stage '\u2776 Collect Stage 1'
+   println "p BUILD_NUMBER = ${BUILD_NUMBER}"
+   echo 'e BUILD_NUMBER = ${BUILD_NUMBER}'
+
    tokens = "${env.JOB_NAME}".tokenize('/')
+   org = tokens[0]
+   repo = tokens[1]
+   branch = tokens[2]
+   // echo 'org/repo/branch=${env.JOB_NAME}'
+
    echo '\u2776 Comitted \u2713.'
 
    stage '\u27A1 Build Stage 2'
