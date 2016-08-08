@@ -1,5 +1,6 @@
 node {
    stage '\u2776 Collect Stage 1'
+   tokens = "${env.JOB_NAME}".tokenize('/')
    echo '\u2776 Comitted \u2713.'
 
    stage '\u27A1 Build Stage 2'
