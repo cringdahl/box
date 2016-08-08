@@ -3,7 +3,6 @@ node {
    println "p BUILD_NUMBER = ${BUILD_NUMBER}"
    echo 'e BUILD_NUMBER = ${BUILD_NUMBER}'
 
-
    tokens = "${env.JOB_NAME}".tokenize('/')
    org = tokens[0]
    repo = tokens[1]
