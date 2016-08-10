@@ -19,4 +19,4 @@ Example Check Trigger Hook
 
 Example Check Trigger Hook Again
 
-Example Check Trigger Hook for NodeJS Project.
+Hook for NodeJS Project.
