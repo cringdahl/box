@@ -23,3 +23,5 @@ Hook for NodeJS Project.
 
 
 Hook for NodeJS Project. Try Aagin
+
+Validating JDK Error is resolved
